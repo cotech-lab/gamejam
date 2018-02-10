@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+   <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,74 +8,30 @@
   <title>KTC Game Jam</title>
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <style type="text/css">
-  footer {
-    margin-top: 40px;
-    padding: 40px 0;
-    color: #ecf0f1;
-    background-color: #333;
-  }
-  section.section {
-    padding: 10px 0;
-  }
-  section.section.section-default {
-    background-color: #f9f9f9;
-  }
-  section.section.section-inverse {
-    background-color: #fafcff;
-  }
-  body { padding-top: 80px; }
-  @media ( min-width: 768px ) {
-    #banner {
-      min-height: 300px;
-      border-bottom: none;
-    }
-    .bs-docs-section {
-      margin-top: 8em;
-    }
-    .bs-component {
-      position: relative;
-    }
-    .bs-component .modal {
-      position: relative;
-      top: auto;
-      right: auto;
-      left: auto;
-      bottom: auto;
-      z-index: 1;
-      display: block;
-    }
-    .bs-component .modal-dialog {
-      width: 90%;
-    }
-    .bs-component .popover {
-      position: relative;
-      display: inline-block;
-      width: 220px;
-      margin: 20px;
-    }
-    .nav-tabs {
-      margin-bottom: 15px;
-    }
-    .progress {
-      margin-bottom: 10px;
-    }
-  }
-  </style>
+      <link rel="stylesheet" type="text/css" href="css/index.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+<!--
+      <script type="text/javascript">
+         $('.bs-component [data-toggle="popover"]').popover();
+         $('.bs-component [data-toggle="tooltip"]').tooltip();
+      </script>
+-->
 
   <!--[if lt IE 9]>
-    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
+<script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 
-</head>
-<body>
+   </head>
+   <body>
 
-<header>
-  <div class="navbar navbar-default navbar-fixed-top">
+      <header>
+         <div class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
       <div class="navbar-header">
-        <a href="index.html" class="navbar-brand">KTC Game Jam</a>
+                  <span class="navbar-brand">KTC Game Jam 2018 &nbsp; &nbsp; <a class="btn btn-info" href="https://docs.google.com/forms/d/e/1FAIpQLSe2bXbCXbs8-MsEo2novl7pCziyLTzBtaZbaxGx03tKO32X5Q/viewform">参加登録</a></span>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -89,47 +45,46 @@
           <li><a href="index.html#how">参加資格・参加方法</a></li>
           <li><a href="index.html#schedule">スケジュール</a></li>
           <li><a href="index.html#faq">FAQ</a></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd8tt7PjiO0lCE7DrRWZtJaHfQeFGFnJxr8ZfdsoJ6nO2FsQw/viewform">参加登録</a></li>
         </ul>
       </div>
     </div>
   </div>
-</header>
+      </header>
 
-<div class="jumbotron special">
-<div class="container">
+      <div class="jumbotron">
+         <div class="container">
   <div class="row">
     <div class="col-xs-12 outline">
-      <h1>Create a Game in 32 Hours</h1>
+                  <h1>Are you GAME?</h1><small>挑戦してみないか？</small>
       <h2>チームで協力して、32時間でゲームを作ろう！</h2>
-      <h4>03/09 10:00 ~ 03/10 18:00</h4>
+                  <h4>03/08 10:00 ~ 03/09 18:00</h4>
       <h4>金沢工業高等専門学校 Design Studio</h4>
       <div class="download">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8tt7PjiO0lCE7DrRWZtJaHfQeFGFnJxr8ZfdsoJ6nO2FsQw/viewform" class="btn btn-info btn-lg"><i class="fa fa-github-alt"></i> 参加登録</a>
+                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2bXbCXbs8-MsEo2novl7pCziyLTzBtaZbaxGx03tKO32X5Q/viewform" class="btn btn-info btn-lg">参加登録</a>
       </div>
     </div>
   </div>
-</div>
-</div>
+         </div>
+      </div>
 
-<section class="section section-default" id="what">
+      <section class="section section-default" id="what">
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
         <h1>Game Jam とは</h1>
         <p>Game Jamは、いわゆるゲーム製作に特化したハッカソンです。
         <p>Game Jamを簡単に説明すると、以下のようになります。</p>
-        <p>
-          ・イベント開始時にテーマを発表 <br />
-          ・テーマを基に32時間でゲームを開発 <br />
-          ・完成したゲームを共有 <br />
-        </p>
+                  <ul>
+                     <li>イベント開始時にテーマを発表 </li>
+                     <li>テーマを基に32時間でゲームを開発</li>
+                     <li>完成したゲームを共有 </li>
+                  </ul>
       </div>
     </div>
   </div>
-</section>
+      </section>
 
-<section class="section section-default" id="how">
+      <section class="section section-default" id="how">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
@@ -146,9 +101,9 @@
       </div>
     </div>
   </div>
-</section>
+      </section>
 
-<section class="section section-default" id="schedule">
+      <section class="section section-default" id="schedule">
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
@@ -213,9 +168,9 @@
       </div>
     </div>
   </div>
-</section>
+      </section>
 
-<section class="section section-default" id="team">
+      <section class="section section-default" id="team">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
@@ -229,9 +184,9 @@
       </div>
     </div>
   </div>
-</section>
+      </section>
 
-<section class="section section-default" id="faq">
+      <section class="section section-default" id="faq">
   <div class="container">
     <div class="row">
       <div class="col-lg-10">
@@ -256,23 +211,14 @@
       </div>
     </div>
   </div>
-</section>
-<footer class="small">
+      </section>
+      <footer class="small">
   <div class="row">
     <div class="col-xs-12 text-center copyright">
-        © 2017 KTC Game Jam Team
+               © 2018 KTC Game Jam Team
     </div>
   </div>
-</footer>
+      </footer>
 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
-<script type="text/javascript">
-  $('.bs-component [data-toggle="popover"]').popover();
-  $('.bs-component [data-toggle="tooltip"]').tooltip();
-</script>
-
-</body>
+   </body>
 </html>
