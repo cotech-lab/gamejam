@@ -1,6 +1,6 @@
 footer {
    margin-top: 40px;
-   padding: 40px 0;
+   padding: 40px 20px 120px 20px;
    color: #ecf0f1;
    background-color: #333;
 }
@@ -18,7 +18,8 @@ section.section.section-default {
 section.section.section-inverse {
    background-color: #fafcff;
 }
-body @media ( min-width: 768px ) {
+body {}
+@media screen and ( min-width: 768px ) {
    #banner {
       min-height: 300px;
       border-bottom: none;
@@ -47,13 +48,18 @@ body @media ( min-width: 768px ) {
       width: 220px;
       margin: 20px;
    }
-   .jumbotron {
-      margin-top: 1600px;
+   footer {
+      padding-bottom: 200px;
    }
    .nav-tabs {
       margin-bottom: 15px;
    }
    .progress {
       margin-bottom: 10px;
+   }
+}
+@media screen and ( min-width: 1000px ) {
+   footer {
+      padding-bottom: 120px;
    }
 }
